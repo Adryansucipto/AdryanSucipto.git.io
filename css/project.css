@@ -78,6 +78,10 @@
 }
 
 @media only screen and (max-width: 801px) {
+    .project_container .card{
+        width: 200px;
+        height: 450px;
+    }
     .project_container{
         display: grid;
         grid-template-columns: repeat(1,1fr);
@@ -139,7 +143,10 @@
         gap: 20px;
         padding: 20px;
     }
-
+    .project_container .card{
+        width: 200px;
+        height: 450px;
+    }
     .card_body{
         display: flex;
         flex-direction: column;
@@ -194,7 +201,11 @@
         gap: 20px;
         padding: 20px;
     }
-    
+    .project_container .card{
+        width: 200px;
+        height: 450px;
+    }
+
     .card_body{
         display: flex;
         flex-direction: column;
@@ -250,6 +261,11 @@
         padding: 20px;
     }
     
+    .project_container .card{
+        width: 200px;
+        height: 300px;
+    }
+
     .card_body{
         display: flex;
         flex-direction: column;
